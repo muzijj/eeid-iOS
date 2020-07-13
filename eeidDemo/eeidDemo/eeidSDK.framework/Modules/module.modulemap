@@ -1,0 +1,6 @@
+framework module eeidSDK {
+  umbrella header "eeidSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045B394724B2D1F400F0B5A5 /* eeidSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045B394624B2D1F400F0B5A5 /* eeidSDK.framework */; };
+		046F49D224A87D0C006D9E6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F49D124A87D0C006D9E6D /* AppDelegate.m */; };
+		046F49D524A87D0C006D9E6D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F49D424A87D0C006D9E6D /* SceneDelegate.m */; };
+		046F49D824A87D0C006D9E6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F49D724A87D0C006D9E6D /* ViewController.m */; };
+		046F49DB24A87D0C006D9E6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F49D924A87D0C006D9E6D /* Main.storyboard */; };
+		046F49DD24A87D10006D9E6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046F49DC24A87D10006D9E6D /* Assets.xcassets */; };
+		046F49E024A87D10006D9E6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046F49DE24A87D10006D9E6D /* LaunchScreen.storyboard */; };
+		046F49E324A87D10006D9E6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F49E224A87D10006D9E6D /* main.m */; };
+		046F49ED24A87D11006D9E6D /* eeidDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F49EC24A87D11006D9E6D /* eeidDemoUITests.m */; };
+		046F49FA24A88161006D9E6D /* eeidResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 046F49F924A88161006D9E6D /* eeidResource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046F49E924A87D11006D9E6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046F49C524A87D0C006D9E6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046F49CC24A87D0C006D9E6D;
+			remoteInfo = eeidDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045B394624B2D1F400F0B5A5 /* eeidSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = eeidSDK.framework; sourceTree = "<group>"; };
+		046F49CD24A87D0C006D9E6D /* eeidDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eeidDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F49D024A87D0C006D9E6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		046F49D124A87D0C006D9E6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046F49D324A87D0C006D9E6D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		046F49D424A87D0C006D9E6D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		046F49D624A87D0C006D9E6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046F49D724A87D0C006D9E6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046F49DA24A87D0C006D9E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046F49DC24A87D10006D9E6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		046F49DF24A87D10006D9E6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		046F49E124A87D10006D9E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046F49E224A87D10006D9E6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046F49E824A87D11006D9E6D /* eeidDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eeidDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046F49EC24A87D11006D9E6D /* eeidDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eeidDemoUITests.m; sourceTree = "<group>"; };
+		046F49EE24A87D11006D9E6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046F49F924A88161006D9E6D /* eeidResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = eeidResource.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046F49CA24A87D0C006D9E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045B394724B2D1F400F0B5A5 /* eeidSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F49E524A87D11006D9E6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046F49C424A87D0C006D9E6D = {
+			isa = PBXGroup;
+			children = (
+				046F49CF24A87D0C006D9E6D /* eeidDemo */,
+				046F49EB24A87D11006D9E6D /* eeidDemoUITests */,
+				046F49CE24A87D0C006D9E6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046F49CE24A87D0C006D9E6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046F49CD24A87D0C006D9E6D /* eeidDemo.app */,
+				046F49E824A87D11006D9E6D /* eeidDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		046F49CF24A87D0C006D9E6D /* eeidDemo */ = {
+			isa = PBXGroup;
+			children = (
+				045B394624B2D1F400F0B5A5 /* eeidSDK.framework */,
+				046F49F924A88161006D9E6D /* eeidResource.bundle */,
+				046F49D024A87D0C006D9E6D /* AppDelegate.h */,
+				046F49D124A87D0C006D9E6D /* AppDelegate.m */,
+				046F49D324A87D0C006D9E6D /* SceneDelegate.h */,
+				046F49D424A87D0C006D9E6D /* SceneDelegate.m */,
+				046F49D624A87D0C006D9E6D /* ViewController.h */,
+				046F49D724A87D0C006D9E6D /* ViewController.m */,
+				046F49D924A87D0C006D9E6D /* Main.storyboard */,
+				046F49DC24A87D10006D9E6D /* Assets.xcassets */,
+				046F49DE24A87D10006D9E6D /* LaunchScreen.storyboard */,
+				046F49E124A87D10006D9E6D /* Info.plist */,
+				046F49E224A87D10006D9E6D /* main.m */,
+			);
+			path = eeidDemo;
+			sourceTree = "<group>";
+		};
+		046F49EB24A87D11006D9E6D /* eeidDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046F49EC24A87D11006D9E6D /* eeidDemoUITests.m */,
+				046F49EE24A87D11006D9E6D /* Info.plist */,
+			);
+			path = eeidDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046F49CC24A87D0C006D9E6D /* eeidDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F49F124A87D11006D9E6D /* Build configuration list for PBXNativeTarget "eeidDemo" */;
+			buildPhases = (
+				046F49C924A87D0C006D9E6D /* Sources */,
+				046F49CA24A87D0C006D9E6D /* Frameworks */,
+				046F49CB24A87D0C006D9E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eeidDemo;
+			productName = eeidDemo;
+			productReference = 046F49CD24A87D0C006D9E6D /* eeidDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046F49E724A87D11006D9E6D /* eeidDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046F49F424A87D11006D9E6D /* Build configuration list for PBXNativeTarget "eeidDemoUITests" */;
+			buildPhases = (
+				046F49E424A87D11006D9E6D /* Sources */,
+				046F49E524A87D11006D9E6D /* Frameworks */,
+				046F49E624A87D11006D9E6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046F49EA24A87D11006D9E6D /* PBXTargetDependency */,
+			);
+			name = eeidDemoUITests;
+			productName = eeidDemoUITests;
+			productReference = 046F49E824A87D11006D9E6D /* eeidDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046F49C524A87D0C006D9E6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Eagle;
+				TargetAttributes = {
+					046F49CC24A87D0C006D9E6D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					046F49E724A87D11006D9E6D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 046F49CC24A87D0C006D9E6D;
+					};
+				};
+			};
+			buildConfigurationList = 046F49C824A87D0C006D9E6D /* Build configuration list for PBXProject "eeidDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046F49C424A87D0C006D9E6D;
+			productRefGroup = 046F49CE24A87D0C006D9E6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046F49CC24A87D0C006D9E6D /* eeidDemo */,
+				046F49E724A87D11006D9E6D /* eeidDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046F49CB24A87D0C006D9E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F49E024A87D10006D9E6D /* LaunchScreen.storyboard in Resources */,
+				046F49DD24A87D10006D9E6D /* Assets.xcassets in Resources */,
+				046F49FA24A88161006D9E6D /* eeidResource.bundle in Resources */,
+				046F49DB24A87D0C006D9E6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F49E624A87D11006D9E6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046F49C924A87D0C006D9E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F49D824A87D0C006D9E6D /* ViewController.m in Sources */,
+				046F49D224A87D0C006D9E6D /* AppDelegate.m in Sources */,
+				046F49E324A87D10006D9E6D /* main.m in Sources */,
+				046F49D524A87D0C006D9E6D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046F49E424A87D11006D9E6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046F49ED24A87D11006D9E6D /* eeidDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046F49EA24A87D11006D9E6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046F49CC24A87D0C006D9E6D /* eeidDemo */;
+			targetProxy = 046F49E924A87D11006D9E6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046F49D924A87D0C006D9E6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F49DA24A87D0C006D9E6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046F49DE24A87D10006D9E6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046F49DF24A87D10006D9E6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046F49EF24A87D11006D9E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046F49F024A87D11006D9E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046F49F224A87D11006D9E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E38F443B5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/eeidDemo",
+					"\"$(SRCROOT)/eeidDemo/eeidSDK.framework\"",
+				);
+				INFOPLIST_FILE = eeidDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Eagle.com.eeidDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		046F49F324A87D11006D9E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E38F443B5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/eeidDemo",
+					"\"$(SRCROOT)/eeidDemo/eeidSDK.framework\"",
+				);
+				INFOPLIST_FILE = eeidDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Eagle.com.eeidDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		046F49F524A87D11006D9E6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eeidDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Eagle.com.eeidDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eeidDemo;
+			};
+			name = Debug;
+		};
+		046F49F624A87D11006D9E6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = eeidDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Eagle.com.eeidDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eeidDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046F49C824A87D0C006D9E6D /* Build configuration list for PBXProject "eeidDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F49EF24A87D11006D9E6D /* Debug */,
+				046F49F024A87D11006D9E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046F49F124A87D11006D9E6D /* Build configuration list for PBXNativeTarget "eeidDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F49F224A87D11006D9E6D /* Debug */,
+				046F49F324A87D11006D9E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046F49F424A87D11006D9E6D /* Build configuration list for PBXNativeTarget "eeidDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046F49F524A87D11006D9E6D /* Debug */,
+				046F49F624A87D11006D9E6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046F49C524A87D0C006D9E6D /* Project object */;
+}
